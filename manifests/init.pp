@@ -40,7 +40,7 @@ class ntp (
   $tos_floor         = $ntp::params::tos_floor,
   $tos_ceiling       = $ntp::params::tos_ceiling,
   $tos_cohort        = $ntp::params::tos_cohort,
-  $udlc              = $ntp::params::udlc,
+  $udlc              = $ntp::params::udlc
   $udlc_stratum      = $ntp::params::udlc_stratum,
 ) inherits ntp::params {
 

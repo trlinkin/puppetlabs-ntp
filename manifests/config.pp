@@ -17,7 +17,7 @@ class ntp::config inherits ntp {
   }
 
   file { $ntp::config:
-    ensure  => file,
+    ensure   => file,
     owner   => 0,
     group   => 0,
     mode    => '0644',
